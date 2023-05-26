@@ -12,5 +12,10 @@ public class PrintController {
 	public String print() {
 		return "Hello Jenkins";
 	}
+	
+	@GetMapping("/test")
+	public String testMethod() {
+		return "testMethod";
+	}
 
 }
